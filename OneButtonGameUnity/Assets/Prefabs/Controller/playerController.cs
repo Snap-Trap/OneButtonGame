@@ -6,10 +6,11 @@ using UnityEngine.InputSystem;
 public class playerController : MonoBehaviour
 {
     public InputAction pressHit;
+    public Sprite defaultImage, pressedImage;
 
     private SpriteRenderer spriteRenderer;
-    public Sprite defaultImage;
-    public Sprite pressedImage;
+
+
 
     private void Start()
     {

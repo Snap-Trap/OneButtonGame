@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Note
+  - Button
   layers:
   - Default
   - TransparentFX
@@ -41,9 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: noteLayer
-    uniqueID: 4149657289
-    locked: 0
   - name: buttonLayer
     uniqueID: 3118539177
+    locked: 0
+  - name: noteLayer
+    uniqueID: 4149657289
     locked: 0
