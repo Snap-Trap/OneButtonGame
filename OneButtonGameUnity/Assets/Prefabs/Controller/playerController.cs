@@ -18,7 +18,7 @@ public class playerController : MonoBehaviour
 
     private void Update()
     {
-        if (pressHit.triggered)
+        if (pressHit.IsPressed())
         {
             spriteRenderer.sprite = pressedImage;
         }
